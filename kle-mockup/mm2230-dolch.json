@@ -1,0 +1,346 @@
+[
+  {
+    "backcolor": "#00000000",
+    "name": "MechaMatrix 2030",
+    "author": "Bigou@jlai.lu",
+    "switchMount": "cherry"
+  },
+  [
+    {
+      "c": "#ca1a0e",
+      "t": "#cccccc",
+      "a": 5
+    },
+    "\nesc",
+    {
+      "c": "#30312e",
+      "t": "#ca1a0e",
+      "fa": [
+        2
+      ]
+    },
+    "dvorak\nF1",
+    "102\nF2",
+    "106\nF3",
+    {
+      "t": "#cccccc"
+    },
+    "\nF4",
+    "\nF5",
+    {
+      "t": "#cccccc\n\n\n#ca1a0e\n\n\n\n\n\n#30312e",
+      "a": 4,
+      "fa": [
+        2,
+        0,
+        0,
+        2
+      ],
+      "h": 1.5
+    },
+    "\n\n\ninsert\n\n\n\n\ndelete\n.",
+    {
+      "t": "#cccccc",
+      "a": 5
+    },
+    "\nF6",
+    {
+      "t": "#ca1a0e"
+    },
+    "power\nF7",
+    "sleep\nF8",
+    "wake\nF9",
+    "prt.sc\nF10",
+    "scroll\nF11",
+    "pause\nF12",
+    "n.lock\nnum"
+  ],
+  [
+    {
+      "c": "#555657",
+      "t": "#cccccc",
+      "a": 4,
+      "f": 3
+    },
+    "~\n`",
+    {
+      "f": 3
+    },
+    "!\n1",
+    {
+      "f": 3
+    },
+    "@\n2",
+    {
+      "f": 3
+    },
+    "#\n3",
+    {
+      "f": 3
+    },
+    "$\n4",
+    {
+      "f": 3
+    },
+    "%\n5",
+    {
+      "x": 1,
+      "f": 3
+    },
+    "^\n6",
+    {
+      "f": 3
+    },
+    "&\n7",
+    {
+      "f": 3
+    },
+    "*\n8",
+    {
+      "f": 3
+    },
+    "(\n9",
+    {
+      "f": 3
+    },
+    ")\n0",
+    {
+      "f": 3
+    },
+    "_\n-",
+    {
+      "f": 3
+    },
+    "+\n=",
+    {
+      "a": 5,
+      "f": 3
+    },
+    "calc"
+  ],
+  [
+    {
+      "y": -0.5,
+      "x": 6,
+      "c": "#30312e",
+      "t": "#cccccc\n\n\n#ca1a0e",
+      "a": 4,
+      "h": 1.5
+    },
+    "\n\n\nvol+\n\n\n\n\nback space"
+  ],
+  [
+    {
+      "y": -0.5,
+      "c": "#555657",
+      "t": "#cccccc",
+      "f": 3
+    },
+    "tab",
+    {
+      "f": 3
+    },
+    "Q",
+    {
+      "f": 3
+    },
+    "W",
+    {
+      "f": 3
+    },
+    "E",
+    {
+      "f": 3
+    },
+    "R",
+    {
+      "f": 3
+    },
+    "T",
+    {
+      "x": 1,
+      "f": 3
+    },
+    "Y",
+    {
+      "f": 3
+    },
+    "U",
+    {
+      "f": 3
+    },
+    "I",
+    {
+      "t": "#cccccc\n\n\n#ca1a0e",
+      "fa": [
+        0,
+        0,
+        0,
+        2
+      ]
+    },
+    "O\n\n\ntab",
+    "P\n\n\n/",
+    "{\n[\n\n*",
+    "}\n]\n\n-",
+    "\n\n\nb.tab\n\n\n\n\nmail"
+  ],
+  [
+    {
+      "t": "#cccccc",
+      "h": 2
+    },
+    "shift",
+    "A",
+    "S",
+    "D",
+    {
+      "t": "#cccccc\n\n\n\n\n\n\n\n\n#555657"
+    },
+    "F\n\n\n\n\n\n\n\n\n.",
+    {
+      "t": "#cccccc"
+    },
+    "G",
+    {
+      "c": "#30312e",
+      "t": "#cccccc\n\n\n#ca1a0e",
+      "h": 2
+    },
+    "\n\n\nvol-\n\n\n\n\nenter",
+    {
+      "c": "#555657"
+    },
+    "H\n\n\nhome",
+    {
+      "t": "#cccccc\n\n\n#ca1a0e\n\n\n\n\n\n#555657",
+      "f": 3
+    },
+    "J\n\n\n<i class='kb kb-Multimedia-Up'></i>\n\n\n\n\n\n.",
+    {
+      "t": "#cccccc\n\n\n#ca1a0e"
+    },
+    "K\n\n\nend",
+    "L\n\n\n7",
+    ":\n;\n\n8",
+    "\"\n'\n\n9",
+    {
+      "f": 3,
+      "h": 2
+    },
+    "\n\n\n+\n\n\n\n\nshift",
+    "\n\n\nclear\n\n\n\n\ncaps"
+  ],
+  [
+    {
+      "x": 1,
+      "t": "#cccccc"
+    },
+    "Z",
+    "X",
+    "C",
+    "V",
+    "B",
+    {
+      "x": 1,
+      "t": "#cccccc\n\n\n#ca1a0e",
+      "f": 3
+    },
+    "N\n\n\n<i class='kb kb-Multimedia-Back'></i>",
+    {
+      "f": 3
+    },
+    "M\n\n\n<i class='kb kb-Multimedia-Down'></i>",
+    {
+      "f": 3
+    },
+    "<\n,\n\n<i class='kb kb-Multimedia-Play'></i>",
+    ">\n.\n\n4",
+    {
+      "t": "#cccccc\n\n\n#ca1a0e\n\n\n\n\n\n#555657"
+    },
+    "?\n/\n\n5\n\n\n\n\n\n.",
+    {
+      "t": "#cccccc\n\n\n#ca1a0e"
+    },
+    "|\n\\\n\n6",
+    {
+      "x": 1
+    },
+    "\n\n\nb.space\n\n\n\n\nwww"
+  ],
+  [
+    {
+      "c": "#30312e",
+      "t": "#cccccc"
+    },
+    "ctrl",
+    {
+      "t": "#cccccc\n\n\n#ca1a0e"
+    },
+    "play\n\n\ncut",
+    {
+      "f": 3
+    },
+    "app\n\n\ncopy",
+    "\n\n\npaste\n\n\n\n\nshuffle",
+    {
+      "c": "#555657",
+      "f": 3,
+      "w": 2.25
+    },
+    "\n\n\nmute",
+    {
+      "f": 3,
+      "w": 2.75
+    },
+    "\n\n\nmute",
+    {
+      "c": "#30312e"
+    },
+    "dsktp\n\n\nprev",
+    "home\n\n\n1",
+    "\n\n\n2\n\n\n\n\n&uarr;",
+    "\n\n\n3\n\n\n\n\nend",
+    {
+      "f": 3,
+      "h": 2
+    },
+    "\n\n\nenter\n\n\n\n\nctrl",
+    "\n\n\nback\n\n\n\n\npg up"
+  ],
+  [
+    {
+      "t": "#ca1a0e"
+    },
+    "fn",
+    {
+      "t": "#cccccc",
+      "w": 1.5
+    },
+    "start",
+    {
+      "w": 1.5
+    },
+    "alt",
+    {
+      "x": 5,
+      "t": "#cccccc\n\n\n#ca1a0e"
+    },
+    "alt\n\n\nnext",
+    "\n\n\n0\n\n\n\n\n&larr;",
+    {
+      "t": "#cccccc\n\n\n#ca1a0e\n\n\n\n\n\n#30312e"
+    },
+    "\n\n\n00\n\n\n\n\n&darr;\n.",
+    {
+      "t": "#cccccc\n\n\n#ca1a0e",
+      "f": 3
+    },
+    "\n\n\n.\n\n\n\n\n&rarr;",
+    {
+      "x": 1
+    },
+    "\n\n\nforward\n\n\n\n\npg dn"
+  ]
+]
