@@ -6,6 +6,15 @@ TypeMatrix 2030 keyboard using off-the-shelf components and firmware.
 The goal is that this keyboard pcb, switch plate, and case will be created in
 ergogen and routing will be done with tooling centered around kicad automations.
 
+This branch (cherry_mx_104_key) houses the files for the MX switch variant of
+the keyboard with a layout tweaked so a full set of keycaps (104/105) will cover
+the whole board.\
+**Note:** An ideal keycap set for this purpose would be either have no key
+legends, or only legends on the alphanumerics as some keys are rotated 90° and
+some keys are custom and or in a non-standard size and location. The keycap
+profile should also be flat, also because some keys are oriented perpendicular
+to their standard direction, so profiles like DSA and XDA are preferable.
+
 ![Current progress of keyboard](assets/ergogen-current.png)
 
 ## Some relevat url's around ergogen and other tooling:
