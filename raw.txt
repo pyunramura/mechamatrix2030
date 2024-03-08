@@ -1,8 +1,31 @@
 
 points:
+  key:
+    footprint:
+      mx_hotswap:
+        type: mx
+        nets:
+          to: "{{key_net}}"
+          from: GND
+        params:
+          reverse: false
+          hotswap: true
+          # Don't show a model for this since 'choc' already loads the model
+          model: false
+          keycaps: false
+      mx:
+        type: mx
+        anchor:
+          rotate: 180
+        nets:
+          to: "{{key_net}}"
+          from: GND
+        params:
+          keycaps: true
+          reverse: false
   zones:
     matrix:
-      columns:
+      columns: #left-to-right
         c1:
           rows:
             r3:
@@ -30,9 +53,9 @@ points:
         c5:
           rows.r1.skip: true
           rows.r2:
-            width: 2*(u-0.5)
-            shift: [0.5u]
-          rows.r3.shift: [-0.5u]
+            width: 2.25*(u-0.5)
+            shift: [0.623u]
+          rows.r3.shift: [-0.623u]
         c6:
           rows.r1.skip: true
           rows.r2.skip: true
@@ -40,8 +63,6 @@ points:
           key:
             skip: true
           rows:
-            r2:
-              skip: false
             r5:
               skip: false
               shift: [0,-1.5u]
@@ -49,12 +70,12 @@ points:
               rotate: 90
             r6:
               skip: false
-              width: 2*(u-0.5)
-              shift: [2u,-1u]
+              width: 1.5*(u-0.5)
+              shift: [1.76u,-1u]
             r7:
               skip: false
-              width: 1*(u-1)
-              rotate: -90
+              width: 1.5*(u-1)
+              rotate: 0
               shift: [1.5u,-1u]
         c8:
           rows.r1.skip: true
@@ -62,9 +83,9 @@ points:
         c9:
           rows.r1.skip: true
           rows.r2:
-            width: 2*(u-0.5)
-            shift: [-0.5u]
-          rows.r3.shift: [0.5u]
+            width: 2.75*(u-0.5)
+            shift: [-0.873u]
+          rows.r3.shift: [0.873u]
         c10:
         c11:
         c12:
@@ -88,7 +109,7 @@ points:
               shift: [0.5u,-1u]
               rotate: -90
         c15:
-      rows:
+      rows: #bottom-to-top
         r1:
         r2:
         r3:

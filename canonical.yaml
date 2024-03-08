@@ -22,6 +22,27 @@ matrix_c1_r1:
     asym: both
     colrow: c1_r1
     name: matrix_c1_r1
+    footprint:
+      mx_hotswap:
+        type: mx
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          reverse: false
+          hotswap: true
+          model: false
+          keycaps: false
+      mx:
+        type: mx
+        anchor:
+          rotate: 180
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          keycaps: true
+          reverse: false
     zone: &ref_1
       columns:
         c1: &ref_0
@@ -77,12 +98,12 @@ matrix_c1_r1:
             r1:
               skip: true
             r2:
-              width: 2*(u-0.5)
+              width: 2.25*(u-0.5)
               shift:
-                - 0.5u
+                - 0.623u
             r3:
               shift:
-                - '-0.5u'
+                - '-0.623u'
           key: {}
           name: c5
         c6: &ref_6
@@ -97,8 +118,6 @@ matrix_c1_r1:
           key:
             skip: true
           rows:
-            r2:
-              skip: false
             r5:
               skip: false
               shift:
@@ -108,14 +127,14 @@ matrix_c1_r1:
               rotate: 90
             r6:
               skip: false
-              width: 2*(u-0.5)
+              width: 1.5*(u-0.5)
               shift:
-                - 2u
+                - 1.76u
                 - '-1u'
             r7:
               skip: false
-              width: 1*(u-1)
-              rotate: -90
+              width: 1.5*(u-1)
+              rotate: 0
               shift:
                 - 1.5u
                 - '-1u'
@@ -133,12 +152,12 @@ matrix_c1_r1:
             r1:
               skip: true
             r2:
-              width: 2*(u-0.5)
+              width: 2.75*(u-0.5)
               shift:
-                - '-0.5u'
+                - '-0.873u'
             r3:
               shift:
-                - 0.5u
+                - 0.873u
           key: {}
           name: c9
         c10: null
@@ -214,6 +233,27 @@ matrix_c1_r2:
     asym: both
     colrow: c1_r2
     name: matrix_c1_r2
+    footprint:
+      mx_hotswap:
+        type: mx
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          reverse: false
+          hotswap: true
+          model: false
+          keycaps: false
+      mx:
+        type: mx
+        anchor:
+          rotate: 180
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          keycaps: true
+          reverse: false
     zone: *ref_1
     col: *ref_0
     row: r2
@@ -246,6 +286,27 @@ matrix_c1_r3:
     asym: both
     colrow: c1_r3
     name: matrix_c1_r3
+    footprint:
+      mx_hotswap:
+        type: mx
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          reverse: false
+          hotswap: true
+          model: false
+          keycaps: false
+      mx:
+        type: mx
+        anchor:
+          rotate: 180
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          keycaps: true
+          reverse: false
     zone: *ref_1
     col: *ref_0
     row: r3
@@ -278,6 +339,27 @@ matrix_c1_r5:
     asym: both
     colrow: c1_r5
     name: matrix_c1_r5
+    footprint:
+      mx_hotswap:
+        type: mx
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          reverse: false
+          hotswap: true
+          model: false
+          keycaps: false
+      mx:
+        type: mx
+        anchor:
+          rotate: 180
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          keycaps: true
+          reverse: false
     zone: *ref_1
     col: *ref_0
     row: r5
@@ -310,6 +392,27 @@ matrix_c1_r6:
     asym: both
     colrow: c1_r6
     name: matrix_c1_r6
+    footprint:
+      mx_hotswap:
+        type: mx
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          reverse: false
+          hotswap: true
+          model: false
+          keycaps: false
+      mx:
+        type: mx
+        anchor:
+          rotate: 180
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          keycaps: true
+          reverse: false
     zone: *ref_1
     col: *ref_0
     row: r6
@@ -342,6 +445,27 @@ matrix_c1_r7:
     asym: both
     colrow: c1_r7
     name: matrix_c1_r7
+    footprint:
+      mx_hotswap:
+        type: mx
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          reverse: false
+          hotswap: true
+          model: false
+          keycaps: false
+      mx:
+        type: mx
+        anchor:
+          rotate: 180
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          keycaps: true
+          reverse: false
     zone: *ref_1
     col: *ref_0
     row: r7
@@ -374,6 +498,27 @@ matrix_c2_r1:
     asym: both
     colrow: c2_r1
     name: matrix_c2_r1
+    footprint:
+      mx_hotswap:
+        type: mx
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          reverse: false
+          hotswap: true
+          model: false
+          keycaps: false
+      mx:
+        type: mx
+        anchor:
+          rotate: 180
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          keycaps: true
+          reverse: false
     zone: *ref_1
     col: *ref_2
     row: r1
@@ -406,6 +551,27 @@ matrix_c2_r2:
     asym: both
     colrow: c2_r2
     name: matrix_c2_r2
+    footprint:
+      mx_hotswap:
+        type: mx
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          reverse: false
+          hotswap: true
+          model: false
+          keycaps: false
+      mx:
+        type: mx
+        anchor:
+          rotate: 180
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          keycaps: true
+          reverse: false
     zone: *ref_1
     col: *ref_2
     row: r2
@@ -438,6 +604,27 @@ matrix_c2_r3:
     asym: both
     colrow: c2_r3
     name: matrix_c2_r3
+    footprint:
+      mx_hotswap:
+        type: mx
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          reverse: false
+          hotswap: true
+          model: false
+          keycaps: false
+      mx:
+        type: mx
+        anchor:
+          rotate: 180
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          keycaps: true
+          reverse: false
     zone: *ref_1
     col: *ref_2
     row: r3
@@ -470,6 +657,27 @@ matrix_c2_r4:
     asym: both
     colrow: c2_r4
     name: matrix_c2_r4
+    footprint:
+      mx_hotswap:
+        type: mx
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          reverse: false
+          hotswap: true
+          model: false
+          keycaps: false
+      mx:
+        type: mx
+        anchor:
+          rotate: 180
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          keycaps: true
+          reverse: false
     zone: *ref_1
     col: *ref_2
     row: r4
@@ -502,6 +710,27 @@ matrix_c2_r5:
     asym: both
     colrow: c2_r5
     name: matrix_c2_r5
+    footprint:
+      mx_hotswap:
+        type: mx
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          reverse: false
+          hotswap: true
+          model: false
+          keycaps: false
+      mx:
+        type: mx
+        anchor:
+          rotate: 180
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          keycaps: true
+          reverse: false
     zone: *ref_1
     col: *ref_2
     row: r5
@@ -534,6 +763,27 @@ matrix_c2_r6:
     asym: both
     colrow: c2_r6
     name: matrix_c2_r6
+    footprint:
+      mx_hotswap:
+        type: mx
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          reverse: false
+          hotswap: true
+          model: false
+          keycaps: false
+      mx:
+        type: mx
+        anchor:
+          rotate: 180
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          keycaps: true
+          reverse: false
     zone: *ref_1
     col: *ref_2
     row: r6
@@ -566,6 +816,27 @@ matrix_c2_r7:
     asym: both
     colrow: c2_r7
     name: matrix_c2_r7
+    footprint:
+      mx_hotswap:
+        type: mx
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          reverse: false
+          hotswap: true
+          model: false
+          keycaps: false
+      mx:
+        type: mx
+        anchor:
+          rotate: 180
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          keycaps: true
+          reverse: false
     zone: *ref_1
     col: *ref_2
     row: r7
@@ -598,6 +869,27 @@ matrix_c3_r1:
     asym: both
     colrow: c3_r1
     name: matrix_c3_r1
+    footprint:
+      mx_hotswap:
+        type: mx
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          reverse: false
+          hotswap: true
+          model: false
+          keycaps: false
+      mx:
+        type: mx
+        anchor:
+          rotate: 180
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          keycaps: true
+          reverse: false
     zone: *ref_1
     col: *ref_3
     row: r1
@@ -630,6 +922,27 @@ matrix_c3_r2:
     asym: both
     colrow: c3_r2
     name: matrix_c3_r2
+    footprint:
+      mx_hotswap:
+        type: mx
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          reverse: false
+          hotswap: true
+          model: false
+          keycaps: false
+      mx:
+        type: mx
+        anchor:
+          rotate: 180
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          keycaps: true
+          reverse: false
     zone: *ref_1
     col: *ref_3
     row: r2
@@ -662,6 +975,27 @@ matrix_c3_r3:
     asym: both
     colrow: c3_r3
     name: matrix_c3_r3
+    footprint:
+      mx_hotswap:
+        type: mx
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          reverse: false
+          hotswap: true
+          model: false
+          keycaps: false
+      mx:
+        type: mx
+        anchor:
+          rotate: 180
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          keycaps: true
+          reverse: false
     zone: *ref_1
     col: *ref_3
     row: r3
@@ -694,6 +1028,27 @@ matrix_c3_r4:
     asym: both
     colrow: c3_r4
     name: matrix_c3_r4
+    footprint:
+      mx_hotswap:
+        type: mx
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          reverse: false
+          hotswap: true
+          model: false
+          keycaps: false
+      mx:
+        type: mx
+        anchor:
+          rotate: 180
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          keycaps: true
+          reverse: false
     zone: *ref_1
     col: *ref_3
     row: r4
@@ -726,6 +1081,27 @@ matrix_c3_r5:
     asym: both
     colrow: c3_r5
     name: matrix_c3_r5
+    footprint:
+      mx_hotswap:
+        type: mx
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          reverse: false
+          hotswap: true
+          model: false
+          keycaps: false
+      mx:
+        type: mx
+        anchor:
+          rotate: 180
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          keycaps: true
+          reverse: false
     zone: *ref_1
     col: *ref_3
     row: r5
@@ -758,6 +1134,27 @@ matrix_c3_r6:
     asym: both
     colrow: c3_r6
     name: matrix_c3_r6
+    footprint:
+      mx_hotswap:
+        type: mx
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          reverse: false
+          hotswap: true
+          model: false
+          keycaps: false
+      mx:
+        type: mx
+        anchor:
+          rotate: 180
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          keycaps: true
+          reverse: false
     zone: *ref_1
     col: *ref_3
     row: r6
@@ -790,6 +1187,27 @@ matrix_c3_r7:
     asym: both
     colrow: c3_r7
     name: matrix_c3_r7
+    footprint:
+      mx_hotswap:
+        type: mx
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          reverse: false
+          hotswap: true
+          model: false
+          keycaps: false
+      mx:
+        type: mx
+        anchor:
+          rotate: 180
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          keycaps: true
+          reverse: false
     zone: *ref_1
     col: *ref_3
     row: r7
@@ -822,6 +1240,27 @@ matrix_c4_r2:
     asym: both
     colrow: c4_r2
     name: matrix_c4_r2
+    footprint:
+      mx_hotswap:
+        type: mx
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          reverse: false
+          hotswap: true
+          model: false
+          keycaps: false
+      mx:
+        type: mx
+        anchor:
+          rotate: 180
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          keycaps: true
+          reverse: false
     zone: *ref_1
     col: *ref_4
     row: r2
@@ -854,6 +1293,27 @@ matrix_c4_r3:
     asym: both
     colrow: c4_r3
     name: matrix_c4_r3
+    footprint:
+      mx_hotswap:
+        type: mx
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          reverse: false
+          hotswap: true
+          model: false
+          keycaps: false
+      mx:
+        type: mx
+        anchor:
+          rotate: 180
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          keycaps: true
+          reverse: false
     zone: *ref_1
     col: *ref_4
     row: r3
@@ -886,6 +1346,27 @@ matrix_c4_r4:
     asym: both
     colrow: c4_r4
     name: matrix_c4_r4
+    footprint:
+      mx_hotswap:
+        type: mx
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          reverse: false
+          hotswap: true
+          model: false
+          keycaps: false
+      mx:
+        type: mx
+        anchor:
+          rotate: 180
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          keycaps: true
+          reverse: false
     zone: *ref_1
     col: *ref_4
     row: r4
@@ -918,6 +1399,27 @@ matrix_c4_r5:
     asym: both
     colrow: c4_r5
     name: matrix_c4_r5
+    footprint:
+      mx_hotswap:
+        type: mx
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          reverse: false
+          hotswap: true
+          model: false
+          keycaps: false
+      mx:
+        type: mx
+        anchor:
+          rotate: 180
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          keycaps: true
+          reverse: false
     zone: *ref_1
     col: *ref_4
     row: r5
@@ -950,6 +1452,27 @@ matrix_c4_r6:
     asym: both
     colrow: c4_r6
     name: matrix_c4_r6
+    footprint:
+      mx_hotswap:
+        type: mx
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          reverse: false
+          hotswap: true
+          model: false
+          keycaps: false
+      mx:
+        type: mx
+        anchor:
+          rotate: 180
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          keycaps: true
+          reverse: false
     zone: *ref_1
     col: *ref_4
     row: r6
@@ -982,6 +1505,27 @@ matrix_c4_r7:
     asym: both
     colrow: c4_r7
     name: matrix_c4_r7
+    footprint:
+      mx_hotswap:
+        type: mx
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          reverse: false
+          hotswap: true
+          model: false
+          keycaps: false
+      mx:
+        type: mx
+        anchor:
+          rotate: 180
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          keycaps: true
+          reverse: false
     zone: *ref_1
     col: *ref_4
     row: r7
@@ -991,7 +1535,7 @@ matrix_c4_r7:
       - 10
       - 10
 matrix_c5_r2:
-  x: 85.5
+  x: 87.837
   'y': 19
   r: 0
   meta:
@@ -1003,10 +1547,10 @@ matrix_c5_r2:
       - 0
     orient: 0
     shift:
-      - 9.5
+      - 11.837
       - 0
     rotate: 0
-    width: 37
+    width: 41.625
     height: 18
     padding: 19
     autobind: 10
@@ -1014,6 +1558,27 @@ matrix_c5_r2:
     asym: both
     colrow: c5_r2
     name: matrix_c5_r2
+    footprint:
+      mx_hotswap:
+        type: mx
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          reverse: false
+          hotswap: true
+          model: false
+          keycaps: false
+      mx:
+        type: mx
+        anchor:
+          rotate: 180
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          keycaps: true
+          reverse: false
     zone: *ref_1
     col: *ref_5
     row: r2
@@ -1035,7 +1600,7 @@ matrix_c5_r3:
       - 0
     orient: 0
     shift:
-      - -9.5
+      - -11.837
       - 0
     rotate: 0
     width: 18
@@ -1046,6 +1611,27 @@ matrix_c5_r3:
     asym: both
     colrow: c5_r3
     name: matrix_c5_r3
+    footprint:
+      mx_hotswap:
+        type: mx
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          reverse: false
+          hotswap: true
+          model: false
+          keycaps: false
+      mx:
+        type: mx
+        anchor:
+          rotate: 180
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          keycaps: true
+          reverse: false
     zone: *ref_1
     col: *ref_5
     row: r3
@@ -1078,6 +1664,27 @@ matrix_c5_r4:
     asym: both
     colrow: c5_r4
     name: matrix_c5_r4
+    footprint:
+      mx_hotswap:
+        type: mx
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          reverse: false
+          hotswap: true
+          model: false
+          keycaps: false
+      mx:
+        type: mx
+        anchor:
+          rotate: 180
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          keycaps: true
+          reverse: false
     zone: *ref_1
     col: *ref_5
     row: r4
@@ -1110,6 +1717,27 @@ matrix_c5_r5:
     asym: both
     colrow: c5_r5
     name: matrix_c5_r5
+    footprint:
+      mx_hotswap:
+        type: mx
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          reverse: false
+          hotswap: true
+          model: false
+          keycaps: false
+      mx:
+        type: mx
+        anchor:
+          rotate: 180
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          keycaps: true
+          reverse: false
     zone: *ref_1
     col: *ref_5
     row: r5
@@ -1142,6 +1770,27 @@ matrix_c5_r6:
     asym: both
     colrow: c5_r6
     name: matrix_c5_r6
+    footprint:
+      mx_hotswap:
+        type: mx
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          reverse: false
+          hotswap: true
+          model: false
+          keycaps: false
+      mx:
+        type: mx
+        anchor:
+          rotate: 180
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          keycaps: true
+          reverse: false
     zone: *ref_1
     col: *ref_5
     row: r6
@@ -1174,6 +1823,27 @@ matrix_c5_r7:
     asym: both
     colrow: c5_r7
     name: matrix_c5_r7
+    footprint:
+      mx_hotswap:
+        type: mx
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          reverse: false
+          hotswap: true
+          model: false
+          keycaps: false
+      mx:
+        type: mx
+        anchor:
+          rotate: 180
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          keycaps: true
+          reverse: false
     zone: *ref_1
     col: *ref_5
     row: r7
@@ -1206,6 +1876,27 @@ matrix_c6_r3:
     asym: both
     colrow: c6_r3
     name: matrix_c6_r3
+    footprint:
+      mx_hotswap:
+        type: mx
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          reverse: false
+          hotswap: true
+          model: false
+          keycaps: false
+      mx:
+        type: mx
+        anchor:
+          rotate: 180
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          keycaps: true
+          reverse: false
     zone: *ref_1
     col: *ref_6
     row: r3
@@ -1238,6 +1929,27 @@ matrix_c6_r4:
     asym: both
     colrow: c6_r4
     name: matrix_c6_r4
+    footprint:
+      mx_hotswap:
+        type: mx
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          reverse: false
+          hotswap: true
+          model: false
+          keycaps: false
+      mx:
+        type: mx
+        anchor:
+          rotate: 180
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          keycaps: true
+          reverse: false
     zone: *ref_1
     col: *ref_6
     row: r4
@@ -1270,6 +1982,27 @@ matrix_c6_r5:
     asym: both
     colrow: c6_r5
     name: matrix_c6_r5
+    footprint:
+      mx_hotswap:
+        type: mx
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          reverse: false
+          hotswap: true
+          model: false
+          keycaps: false
+      mx:
+        type: mx
+        anchor:
+          rotate: 180
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          keycaps: true
+          reverse: false
     zone: *ref_1
     col: *ref_6
     row: r5
@@ -1302,6 +2035,27 @@ matrix_c6_r6:
     asym: both
     colrow: c6_r6
     name: matrix_c6_r6
+    footprint:
+      mx_hotswap:
+        type: mx
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          reverse: false
+          hotswap: true
+          model: false
+          keycaps: false
+      mx:
+        type: mx
+        anchor:
+          rotate: 180
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          keycaps: true
+          reverse: false
     zone: *ref_1
     col: *ref_6
     row: r6
@@ -1334,44 +2088,33 @@ matrix_c6_r7:
     asym: both
     colrow: c6_r7
     name: matrix_c6_r7
+    footprint:
+      mx_hotswap:
+        type: mx
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          reverse: false
+          hotswap: true
+          model: false
+          keycaps: false
+      mx:
+        type: mx
+        anchor:
+          rotate: 180
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          keycaps: true
+          reverse: false
     zone: *ref_1
     col: *ref_6
     row: r7
     bind:
       - 0
-      - 10
-      - 10
-      - 10
-matrix_c7_r2:
-  x: 114
-  'y': 19
-  r: 0
-  meta:
-    stagger: 0
-    spread: 19
-    splay: 0
-    origin:
       - 0
-      - 0
-    orient: 0
-    shift:
-      - 0
-      - 0
-    rotate: 0
-    width: 18
-    height: 18
-    padding: 19
-    autobind: 10
-    skip: false
-    asym: both
-    colrow: c7_r2
-    name: matrix_c7_r2
-    zone: *ref_1
-    col: *ref_7
-    row: r2
-    bind:
-      - 10
-      - 10
       - 10
       - 10
 matrix_c7_r5:
@@ -1398,6 +2141,27 @@ matrix_c7_r5:
     asym: both
     colrow: c7_r5
     name: matrix_c7_r5
+    footprint:
+      mx_hotswap:
+        type: mx
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          reverse: false
+          hotswap: true
+          model: false
+          keycaps: false
+      mx:
+        type: mx
+        anchor:
+          rotate: 180
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          keycaps: true
+          reverse: false
     zone: *ref_1
     col: *ref_7
     row: r5
@@ -1408,7 +2172,7 @@ matrix_c7_r5:
       - 10
 matrix_c7_r6:
   x: 114
-  'y': 85.5
+  'y': 80.94
   r: 90
   meta:
     stagger: 0
@@ -1419,10 +2183,10 @@ matrix_c7_r6:
       - 0
     orient: 0
     shift:
-      - 38
+      - 33.44
       - -19
     rotate: 0
-    width: 37
+    width: 27.75
     height: 18
     padding: 19
     autobind: 10
@@ -1430,6 +2194,27 @@ matrix_c7_r6:
     asym: both
     colrow: c7_r6
     name: matrix_c7_r6
+    footprint:
+      mx_hotswap:
+        type: mx
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          reverse: false
+          hotswap: true
+          model: false
+          keycaps: false
+      mx:
+        type: mx
+        anchor:
+          rotate: 180
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          keycaps: true
+          reverse: false
     zone: *ref_1
     col: *ref_7
     row: r6
@@ -1440,8 +2225,8 @@ matrix_c7_r6:
       - 10
 matrix_c7_r7:
   x: 114
-  'y': 114
-  r: 0
+  'y': 109.44
+  r: 90
   meta:
     stagger: 0
     spread: 19
@@ -1453,8 +2238,8 @@ matrix_c7_r7:
     shift:
       - 28.5
       - -19
-    rotate: -90
-    width: 18
+    rotate: 0
+    width: 27
     height: 18
     padding: 19
     autobind: 10
@@ -1462,6 +2247,27 @@ matrix_c7_r7:
     asym: both
     colrow: c7_r7
     name: matrix_c7_r7
+    footprint:
+      mx_hotswap:
+        type: mx
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          reverse: false
+          hotswap: true
+          model: false
+          keycaps: false
+      mx:
+        type: mx
+        anchor:
+          rotate: 180
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          keycaps: true
+          reverse: false
     zone: *ref_1
     col: *ref_7
     row: r7
@@ -1494,6 +2300,27 @@ matrix_c8_r3:
     asym: both
     colrow: c8_r3
     name: matrix_c8_r3
+    footprint:
+      mx_hotswap:
+        type: mx
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          reverse: false
+          hotswap: true
+          model: false
+          keycaps: false
+      mx:
+        type: mx
+        anchor:
+          rotate: 180
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          keycaps: true
+          reverse: false
     zone: *ref_1
     col: *ref_8
     row: r3
@@ -1526,6 +2353,27 @@ matrix_c8_r4:
     asym: both
     colrow: c8_r4
     name: matrix_c8_r4
+    footprint:
+      mx_hotswap:
+        type: mx
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          reverse: false
+          hotswap: true
+          model: false
+          keycaps: false
+      mx:
+        type: mx
+        anchor:
+          rotate: 180
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          keycaps: true
+          reverse: false
     zone: *ref_1
     col: *ref_8
     row: r4
@@ -1558,6 +2406,27 @@ matrix_c8_r5:
     asym: both
     colrow: c8_r5
     name: matrix_c8_r5
+    footprint:
+      mx_hotswap:
+        type: mx
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          reverse: false
+          hotswap: true
+          model: false
+          keycaps: false
+      mx:
+        type: mx
+        anchor:
+          rotate: 180
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          keycaps: true
+          reverse: false
     zone: *ref_1
     col: *ref_8
     row: r5
@@ -1590,6 +2459,27 @@ matrix_c8_r6:
     asym: both
     colrow: c8_r6
     name: matrix_c8_r6
+    footprint:
+      mx_hotswap:
+        type: mx
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          reverse: false
+          hotswap: true
+          model: false
+          keycaps: false
+      mx:
+        type: mx
+        anchor:
+          rotate: 180
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          keycaps: true
+          reverse: false
     zone: *ref_1
     col: *ref_8
     row: r6
@@ -1622,6 +2512,27 @@ matrix_c8_r7:
     asym: both
     colrow: c8_r7
     name: matrix_c8_r7
+    footprint:
+      mx_hotswap:
+        type: mx
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          reverse: false
+          hotswap: true
+          model: false
+          keycaps: false
+      mx:
+        type: mx
+        anchor:
+          rotate: 180
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          keycaps: true
+          reverse: false
     zone: *ref_1
     col: *ref_8
     row: r7
@@ -1629,9 +2540,9 @@ matrix_c8_r7:
       - 0
       - 10
       - 10
-      - 10
+      - 0
 matrix_c9_r2:
-  x: 142.5
+  x: 135.413
   'y': 19
   r: 0
   meta:
@@ -1643,10 +2554,10 @@ matrix_c9_r2:
       - 0
     orient: 0
     shift:
-      - -9.5
+      - -16.587
       - 0
     rotate: 0
-    width: 37
+    width: 50.875
     height: 18
     padding: 19
     autobind: 10
@@ -1654,6 +2565,27 @@ matrix_c9_r2:
     asym: both
     colrow: c9_r2
     name: matrix_c9_r2
+    footprint:
+      mx_hotswap:
+        type: mx
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          reverse: false
+          hotswap: true
+          model: false
+          keycaps: false
+      mx:
+        type: mx
+        anchor:
+          rotate: 180
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          keycaps: true
+          reverse: false
     zone: *ref_1
     col: *ref_9
     row: r2
@@ -1675,7 +2607,7 @@ matrix_c9_r3:
       - 0
     orient: 0
     shift:
-      - 9.5
+      - 16.587
       - 0
     rotate: 0
     width: 18
@@ -1686,6 +2618,27 @@ matrix_c9_r3:
     asym: both
     colrow: c9_r3
     name: matrix_c9_r3
+    footprint:
+      mx_hotswap:
+        type: mx
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          reverse: false
+          hotswap: true
+          model: false
+          keycaps: false
+      mx:
+        type: mx
+        anchor:
+          rotate: 180
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          keycaps: true
+          reverse: false
     zone: *ref_1
     col: *ref_9
     row: r3
@@ -1718,6 +2671,27 @@ matrix_c9_r4:
     asym: both
     colrow: c9_r4
     name: matrix_c9_r4
+    footprint:
+      mx_hotswap:
+        type: mx
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          reverse: false
+          hotswap: true
+          model: false
+          keycaps: false
+      mx:
+        type: mx
+        anchor:
+          rotate: 180
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          keycaps: true
+          reverse: false
     zone: *ref_1
     col: *ref_9
     row: r4
@@ -1750,6 +2724,27 @@ matrix_c9_r5:
     asym: both
     colrow: c9_r5
     name: matrix_c9_r5
+    footprint:
+      mx_hotswap:
+        type: mx
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          reverse: false
+          hotswap: true
+          model: false
+          keycaps: false
+      mx:
+        type: mx
+        anchor:
+          rotate: 180
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          keycaps: true
+          reverse: false
     zone: *ref_1
     col: *ref_9
     row: r5
@@ -1782,6 +2777,27 @@ matrix_c9_r6:
     asym: both
     colrow: c9_r6
     name: matrix_c9_r6
+    footprint:
+      mx_hotswap:
+        type: mx
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          reverse: false
+          hotswap: true
+          model: false
+          keycaps: false
+      mx:
+        type: mx
+        anchor:
+          rotate: 180
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          keycaps: true
+          reverse: false
     zone: *ref_1
     col: *ref_9
     row: r6
@@ -1814,6 +2830,27 @@ matrix_c9_r7:
     asym: both
     colrow: c9_r7
     name: matrix_c9_r7
+    footprint:
+      mx_hotswap:
+        type: mx
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          reverse: false
+          hotswap: true
+          model: false
+          keycaps: false
+      mx:
+        type: mx
+        anchor:
+          rotate: 180
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          keycaps: true
+          reverse: false
     zone: *ref_1
     col: *ref_9
     row: r7
@@ -1846,6 +2883,27 @@ matrix_c10_r1:
     asym: both
     colrow: c10_r1
     name: matrix_c10_r1
+    footprint:
+      mx_hotswap:
+        type: mx
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          reverse: false
+          hotswap: true
+          model: false
+          keycaps: false
+      mx:
+        type: mx
+        anchor:
+          rotate: 180
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          keycaps: true
+          reverse: false
     zone: *ref_1
     col: &ref_10
       rows: {}
@@ -1881,6 +2939,27 @@ matrix_c10_r2:
     asym: both
     colrow: c10_r2
     name: matrix_c10_r2
+    footprint:
+      mx_hotswap:
+        type: mx
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          reverse: false
+          hotswap: true
+          model: false
+          keycaps: false
+      mx:
+        type: mx
+        anchor:
+          rotate: 180
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          keycaps: true
+          reverse: false
     zone: *ref_1
     col: *ref_10
     row: r2
@@ -1913,6 +2992,27 @@ matrix_c10_r3:
     asym: both
     colrow: c10_r3
     name: matrix_c10_r3
+    footprint:
+      mx_hotswap:
+        type: mx
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          reverse: false
+          hotswap: true
+          model: false
+          keycaps: false
+      mx:
+        type: mx
+        anchor:
+          rotate: 180
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          keycaps: true
+          reverse: false
     zone: *ref_1
     col: *ref_10
     row: r3
@@ -1945,6 +3045,27 @@ matrix_c10_r4:
     asym: both
     colrow: c10_r4
     name: matrix_c10_r4
+    footprint:
+      mx_hotswap:
+        type: mx
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          reverse: false
+          hotswap: true
+          model: false
+          keycaps: false
+      mx:
+        type: mx
+        anchor:
+          rotate: 180
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          keycaps: true
+          reverse: false
     zone: *ref_1
     col: *ref_10
     row: r4
@@ -1977,6 +3098,27 @@ matrix_c10_r5:
     asym: both
     colrow: c10_r5
     name: matrix_c10_r5
+    footprint:
+      mx_hotswap:
+        type: mx
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          reverse: false
+          hotswap: true
+          model: false
+          keycaps: false
+      mx:
+        type: mx
+        anchor:
+          rotate: 180
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          keycaps: true
+          reverse: false
     zone: *ref_1
     col: *ref_10
     row: r5
@@ -2009,6 +3151,27 @@ matrix_c10_r6:
     asym: both
     colrow: c10_r6
     name: matrix_c10_r6
+    footprint:
+      mx_hotswap:
+        type: mx
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          reverse: false
+          hotswap: true
+          model: false
+          keycaps: false
+      mx:
+        type: mx
+        anchor:
+          rotate: 180
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          keycaps: true
+          reverse: false
     zone: *ref_1
     col: *ref_10
     row: r6
@@ -2041,6 +3204,27 @@ matrix_c10_r7:
     asym: both
     colrow: c10_r7
     name: matrix_c10_r7
+    footprint:
+      mx_hotswap:
+        type: mx
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          reverse: false
+          hotswap: true
+          model: false
+          keycaps: false
+      mx:
+        type: mx
+        anchor:
+          rotate: 180
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          keycaps: true
+          reverse: false
     zone: *ref_1
     col: *ref_10
     row: r7
@@ -2073,6 +3257,27 @@ matrix_c11_r1:
     asym: both
     colrow: c11_r1
     name: matrix_c11_r1
+    footprint:
+      mx_hotswap:
+        type: mx
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          reverse: false
+          hotswap: true
+          model: false
+          keycaps: false
+      mx:
+        type: mx
+        anchor:
+          rotate: 180
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          keycaps: true
+          reverse: false
     zone: *ref_1
     col: &ref_11
       rows: {}
@@ -2108,6 +3313,27 @@ matrix_c11_r2:
     asym: both
     colrow: c11_r2
     name: matrix_c11_r2
+    footprint:
+      mx_hotswap:
+        type: mx
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          reverse: false
+          hotswap: true
+          model: false
+          keycaps: false
+      mx:
+        type: mx
+        anchor:
+          rotate: 180
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          keycaps: true
+          reverse: false
     zone: *ref_1
     col: *ref_11
     row: r2
@@ -2140,6 +3366,27 @@ matrix_c11_r3:
     asym: both
     colrow: c11_r3
     name: matrix_c11_r3
+    footprint:
+      mx_hotswap:
+        type: mx
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          reverse: false
+          hotswap: true
+          model: false
+          keycaps: false
+      mx:
+        type: mx
+        anchor:
+          rotate: 180
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          keycaps: true
+          reverse: false
     zone: *ref_1
     col: *ref_11
     row: r3
@@ -2172,6 +3419,27 @@ matrix_c11_r4:
     asym: both
     colrow: c11_r4
     name: matrix_c11_r4
+    footprint:
+      mx_hotswap:
+        type: mx
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          reverse: false
+          hotswap: true
+          model: false
+          keycaps: false
+      mx:
+        type: mx
+        anchor:
+          rotate: 180
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          keycaps: true
+          reverse: false
     zone: *ref_1
     col: *ref_11
     row: r4
@@ -2204,6 +3472,27 @@ matrix_c11_r5:
     asym: both
     colrow: c11_r5
     name: matrix_c11_r5
+    footprint:
+      mx_hotswap:
+        type: mx
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          reverse: false
+          hotswap: true
+          model: false
+          keycaps: false
+      mx:
+        type: mx
+        anchor:
+          rotate: 180
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          keycaps: true
+          reverse: false
     zone: *ref_1
     col: *ref_11
     row: r5
@@ -2236,6 +3525,27 @@ matrix_c11_r6:
     asym: both
     colrow: c11_r6
     name: matrix_c11_r6
+    footprint:
+      mx_hotswap:
+        type: mx
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          reverse: false
+          hotswap: true
+          model: false
+          keycaps: false
+      mx:
+        type: mx
+        anchor:
+          rotate: 180
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          keycaps: true
+          reverse: false
     zone: *ref_1
     col: *ref_11
     row: r6
@@ -2268,6 +3578,27 @@ matrix_c11_r7:
     asym: both
     colrow: c11_r7
     name: matrix_c11_r7
+    footprint:
+      mx_hotswap:
+        type: mx
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          reverse: false
+          hotswap: true
+          model: false
+          keycaps: false
+      mx:
+        type: mx
+        anchor:
+          rotate: 180
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          keycaps: true
+          reverse: false
     zone: *ref_1
     col: *ref_11
     row: r7
@@ -2300,6 +3631,27 @@ matrix_c12_r1:
     asym: both
     colrow: c12_r1
     name: matrix_c12_r1
+    footprint:
+      mx_hotswap:
+        type: mx
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          reverse: false
+          hotswap: true
+          model: false
+          keycaps: false
+      mx:
+        type: mx
+        anchor:
+          rotate: 180
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          keycaps: true
+          reverse: false
     zone: *ref_1
     col: &ref_12
       rows: {}
@@ -2335,6 +3687,27 @@ matrix_c12_r2:
     asym: both
     colrow: c12_r2
     name: matrix_c12_r2
+    footprint:
+      mx_hotswap:
+        type: mx
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          reverse: false
+          hotswap: true
+          model: false
+          keycaps: false
+      mx:
+        type: mx
+        anchor:
+          rotate: 180
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          keycaps: true
+          reverse: false
     zone: *ref_1
     col: *ref_12
     row: r2
@@ -2367,6 +3740,27 @@ matrix_c12_r3:
     asym: both
     colrow: c12_r3
     name: matrix_c12_r3
+    footprint:
+      mx_hotswap:
+        type: mx
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          reverse: false
+          hotswap: true
+          model: false
+          keycaps: false
+      mx:
+        type: mx
+        anchor:
+          rotate: 180
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          keycaps: true
+          reverse: false
     zone: *ref_1
     col: *ref_12
     row: r3
@@ -2399,6 +3793,27 @@ matrix_c12_r4:
     asym: both
     colrow: c12_r4
     name: matrix_c12_r4
+    footprint:
+      mx_hotswap:
+        type: mx
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          reverse: false
+          hotswap: true
+          model: false
+          keycaps: false
+      mx:
+        type: mx
+        anchor:
+          rotate: 180
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          keycaps: true
+          reverse: false
     zone: *ref_1
     col: *ref_12
     row: r4
@@ -2431,6 +3846,27 @@ matrix_c12_r5:
     asym: both
     colrow: c12_r5
     name: matrix_c12_r5
+    footprint:
+      mx_hotswap:
+        type: mx
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          reverse: false
+          hotswap: true
+          model: false
+          keycaps: false
+      mx:
+        type: mx
+        anchor:
+          rotate: 180
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          keycaps: true
+          reverse: false
     zone: *ref_1
     col: *ref_12
     row: r5
@@ -2463,6 +3899,27 @@ matrix_c12_r6:
     asym: both
     colrow: c12_r6
     name: matrix_c12_r6
+    footprint:
+      mx_hotswap:
+        type: mx
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          reverse: false
+          hotswap: true
+          model: false
+          keycaps: false
+      mx:
+        type: mx
+        anchor:
+          rotate: 180
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          keycaps: true
+          reverse: false
     zone: *ref_1
     col: *ref_12
     row: r6
@@ -2495,6 +3952,27 @@ matrix_c12_r7:
     asym: both
     colrow: c12_r7
     name: matrix_c12_r7
+    footprint:
+      mx_hotswap:
+        type: mx
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          reverse: false
+          hotswap: true
+          model: false
+          keycaps: false
+      mx:
+        type: mx
+        anchor:
+          rotate: 180
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          keycaps: true
+          reverse: false
     zone: *ref_1
     col: *ref_12
     row: r7
@@ -2527,6 +4005,27 @@ matrix_c13_r1:
     asym: both
     colrow: c13_r1
     name: matrix_c13_r1
+    footprint:
+      mx_hotswap:
+        type: mx
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          reverse: false
+          hotswap: true
+          model: false
+          keycaps: false
+      mx:
+        type: mx
+        anchor:
+          rotate: 180
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          keycaps: true
+          reverse: false
     zone: *ref_1
     col: &ref_13
       rows: {}
@@ -2562,6 +4061,27 @@ matrix_c13_r2:
     asym: both
     colrow: c13_r2
     name: matrix_c13_r2
+    footprint:
+      mx_hotswap:
+        type: mx
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          reverse: false
+          hotswap: true
+          model: false
+          keycaps: false
+      mx:
+        type: mx
+        anchor:
+          rotate: 180
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          keycaps: true
+          reverse: false
     zone: *ref_1
     col: *ref_13
     row: r2
@@ -2594,6 +4114,27 @@ matrix_c13_r3:
     asym: both
     colrow: c13_r3
     name: matrix_c13_r3
+    footprint:
+      mx_hotswap:
+        type: mx
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          reverse: false
+          hotswap: true
+          model: false
+          keycaps: false
+      mx:
+        type: mx
+        anchor:
+          rotate: 180
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          keycaps: true
+          reverse: false
     zone: *ref_1
     col: *ref_13
     row: r3
@@ -2626,6 +4167,27 @@ matrix_c13_r4:
     asym: both
     colrow: c13_r4
     name: matrix_c13_r4
+    footprint:
+      mx_hotswap:
+        type: mx
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          reverse: false
+          hotswap: true
+          model: false
+          keycaps: false
+      mx:
+        type: mx
+        anchor:
+          rotate: 180
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          keycaps: true
+          reverse: false
     zone: *ref_1
     col: *ref_13
     row: r4
@@ -2658,6 +4220,27 @@ matrix_c13_r5:
     asym: both
     colrow: c13_r5
     name: matrix_c13_r5
+    footprint:
+      mx_hotswap:
+        type: mx
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          reverse: false
+          hotswap: true
+          model: false
+          keycaps: false
+      mx:
+        type: mx
+        anchor:
+          rotate: 180
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          keycaps: true
+          reverse: false
     zone: *ref_1
     col: *ref_13
     row: r5
@@ -2690,6 +4273,27 @@ matrix_c13_r6:
     asym: both
     colrow: c13_r6
     name: matrix_c13_r6
+    footprint:
+      mx_hotswap:
+        type: mx
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          reverse: false
+          hotswap: true
+          model: false
+          keycaps: false
+      mx:
+        type: mx
+        anchor:
+          rotate: 180
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          keycaps: true
+          reverse: false
     zone: *ref_1
     col: *ref_13
     row: r6
@@ -2722,6 +4326,27 @@ matrix_c13_r7:
     asym: both
     colrow: c13_r7
     name: matrix_c13_r7
+    footprint:
+      mx_hotswap:
+        type: mx
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          reverse: false
+          hotswap: true
+          model: false
+          keycaps: false
+      mx:
+        type: mx
+        anchor:
+          rotate: 180
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          keycaps: true
+          reverse: false
     zone: *ref_1
     col: *ref_13
     row: r7
@@ -2754,6 +4379,27 @@ matrix_c14_r1:
     asym: both
     colrow: c14_r1
     name: matrix_c14_r1
+    footprint:
+      mx_hotswap:
+        type: mx
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          reverse: false
+          hotswap: true
+          model: false
+          keycaps: false
+      mx:
+        type: mx
+        anchor:
+          rotate: 180
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          keycaps: true
+          reverse: false
     zone: *ref_1
     col: *ref_14
     row: r1
@@ -2786,6 +4432,27 @@ matrix_c14_r3:
     asym: both
     colrow: c14_r3
     name: matrix_c14_r3
+    footprint:
+      mx_hotswap:
+        type: mx
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          reverse: false
+          hotswap: true
+          model: false
+          keycaps: false
+      mx:
+        type: mx
+        anchor:
+          rotate: 180
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          keycaps: true
+          reverse: false
     zone: *ref_1
     col: *ref_14
     row: r3
@@ -2818,6 +4485,27 @@ matrix_c14_r5:
     asym: both
     colrow: c14_r5
     name: matrix_c14_r5
+    footprint:
+      mx_hotswap:
+        type: mx
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          reverse: false
+          hotswap: true
+          model: false
+          keycaps: false
+      mx:
+        type: mx
+        anchor:
+          rotate: 180
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          keycaps: true
+          reverse: false
     zone: *ref_1
     col: *ref_14
     row: r5
@@ -2850,6 +4538,27 @@ matrix_c14_r6:
     asym: both
     colrow: c14_r6
     name: matrix_c14_r6
+    footprint:
+      mx_hotswap:
+        type: mx
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          reverse: false
+          hotswap: true
+          model: false
+          keycaps: false
+      mx:
+        type: mx
+        anchor:
+          rotate: 180
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          keycaps: true
+          reverse: false
     zone: *ref_1
     col: *ref_14
     row: r6
@@ -2882,6 +4591,27 @@ matrix_c14_r7:
     asym: both
     colrow: c14_r7
     name: matrix_c14_r7
+    footprint:
+      mx_hotswap:
+        type: mx
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          reverse: false
+          hotswap: true
+          model: false
+          keycaps: false
+      mx:
+        type: mx
+        anchor:
+          rotate: 180
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          keycaps: true
+          reverse: false
     zone: *ref_1
     col: *ref_14
     row: r7
@@ -2914,6 +4644,27 @@ matrix_c15_r1:
     asym: both
     colrow: c15_r1
     name: matrix_c15_r1
+    footprint:
+      mx_hotswap:
+        type: mx
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          reverse: false
+          hotswap: true
+          model: false
+          keycaps: false
+      mx:
+        type: mx
+        anchor:
+          rotate: 180
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          keycaps: true
+          reverse: false
     zone: *ref_1
     col: &ref_15
       rows: {}
@@ -2949,6 +4700,27 @@ matrix_c15_r2:
     asym: both
     colrow: c15_r2
     name: matrix_c15_r2
+    footprint:
+      mx_hotswap:
+        type: mx
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          reverse: false
+          hotswap: true
+          model: false
+          keycaps: false
+      mx:
+        type: mx
+        anchor:
+          rotate: 180
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          keycaps: true
+          reverse: false
     zone: *ref_1
     col: *ref_15
     row: r2
@@ -2981,6 +4753,27 @@ matrix_c15_r3:
     asym: both
     colrow: c15_r3
     name: matrix_c15_r3
+    footprint:
+      mx_hotswap:
+        type: mx
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          reverse: false
+          hotswap: true
+          model: false
+          keycaps: false
+      mx:
+        type: mx
+        anchor:
+          rotate: 180
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          keycaps: true
+          reverse: false
     zone: *ref_1
     col: *ref_15
     row: r3
@@ -3013,6 +4806,27 @@ matrix_c15_r4:
     asym: both
     colrow: c15_r4
     name: matrix_c15_r4
+    footprint:
+      mx_hotswap:
+        type: mx
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          reverse: false
+          hotswap: true
+          model: false
+          keycaps: false
+      mx:
+        type: mx
+        anchor:
+          rotate: 180
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          keycaps: true
+          reverse: false
     zone: *ref_1
     col: *ref_15
     row: r4
@@ -3045,6 +4859,27 @@ matrix_c15_r5:
     asym: both
     colrow: c15_r5
     name: matrix_c15_r5
+    footprint:
+      mx_hotswap:
+        type: mx
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          reverse: false
+          hotswap: true
+          model: false
+          keycaps: false
+      mx:
+        type: mx
+        anchor:
+          rotate: 180
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          keycaps: true
+          reverse: false
     zone: *ref_1
     col: *ref_15
     row: r5
@@ -3077,6 +4912,27 @@ matrix_c15_r6:
     asym: both
     colrow: c15_r6
     name: matrix_c15_r6
+    footprint:
+      mx_hotswap:
+        type: mx
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          reverse: false
+          hotswap: true
+          model: false
+          keycaps: false
+      mx:
+        type: mx
+        anchor:
+          rotate: 180
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          keycaps: true
+          reverse: false
     zone: *ref_1
     col: *ref_15
     row: r6
@@ -3109,6 +4965,27 @@ matrix_c15_r7:
     asym: both
     colrow: c15_r7
     name: matrix_c15_r7
+    footprint:
+      mx_hotswap:
+        type: mx
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          reverse: false
+          hotswap: true
+          model: false
+          keycaps: false
+      mx:
+        type: mx
+        anchor:
+          rotate: 180
+        nets:
+          to: '{{key_net}}'
+          from: GND
+        params:
+          keycaps: true
+          reverse: false
     zone: *ref_1
     col: *ref_15
     row: r7
