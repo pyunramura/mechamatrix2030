@@ -1,0 +1,99 @@
+
+points:
+  zones:
+    matrix:
+      columns:
+        c1:
+          rows:
+            r3:
+              width: 2(u-0.5)
+              shift: [0,0.5u]
+              rotate: 90
+            r4:
+              skip: true
+              shift: [0.5u,-1u]
+              rotate: -90
+        c2:
+          rows:
+            r1:
+              width: 1.5*(u-0.5)
+              shift: [0.25u,0]
+            r2.shift: [-0.25u,0]
+        c3:
+          rows:
+            r1:
+              width: 1.5*(u-0.5)
+              shift: [0.75u,0]
+            r2.shift: [-0.75u,0]
+        c4:
+          rows.r1.skip: true
+        c5:
+          rows.r1.skip: true
+          rows.r2:
+            width: 2*(u-0.5)
+            shift: [0.5u]
+          rows.r3.shift: [-0.5u]
+        c6:
+          rows.r1.skip: true
+          rows.r2.skip: true
+        c7:
+          key:
+            skip: true
+          rows:
+            r2:
+              skip: false
+            r5:
+              skip: false
+              shift: [0,-1.5u]
+              width: 2*(u-0.5)
+              rotate: 90
+            r6:
+              skip: false
+              width: 2*(u-0.5)
+              shift: [2u,-1u]
+            r7:
+              skip: false
+              width: 1*(u-1)
+              rotate: -90
+              shift: [1.5u,-1u]
+        c8:
+          rows.r1.skip: true
+          rows.r2.skip: true
+        c9:
+          rows.r1.skip: true
+          rows.r2:
+            width: 2*(u-0.5)
+            shift: [-0.5u]
+          rows.r3.shift: [0.5u]
+        c10:
+        c11:
+        c12:
+        c13:
+        c14:
+          rows:
+            r1:
+              width: 2*(u-0.5)
+              shift: [0,0.5u]
+              rotate: 90
+            r2:
+              skip: true
+              shift: [+0.5u,-1u]
+              rotate: -90
+            r3:
+              width: 2*(u-0.5)
+              shift: [0,0.5u]
+              rotate: 90
+            r4:
+              skip: true
+              shift: [0.5u,-1u]
+              rotate: -90
+        c15:
+      rows:
+        r1:
+        r2:
+        r3:
+        r4:
+        r5:
+        r6:
+        r7:
+  rotate: 0

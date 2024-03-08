@@ -1,0 +1,3119 @@
+matrix_c1_r1:
+  x: 0
+  'y': 0
+  r: 0
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: c1_r1
+    name: matrix_c1_r1
+    zone: &ref_1
+      columns:
+        c1: &ref_0
+          rows:
+            r3:
+              width: 2(u-0.5)
+              shift:
+                - 0
+                - 0.5u
+              rotate: 90
+            r4:
+              skip: true
+              shift:
+                - 0.5u
+                - '-1u'
+              rotate: -90
+          key: {}
+          name: c1
+        c2: &ref_2
+          rows:
+            r1:
+              width: 1.5*(u-0.5)
+              shift:
+                - 0.25u
+                - 0
+            r2:
+              shift:
+                - '-0.25u'
+                - 0
+          key: {}
+          name: c2
+        c3: &ref_3
+          rows:
+            r1:
+              width: 1.5*(u-0.5)
+              shift:
+                - 0.75u
+                - 0
+            r2:
+              shift:
+                - '-0.75u'
+                - 0
+          key: {}
+          name: c3
+        c4: &ref_4
+          rows:
+            r1:
+              skip: true
+          key: {}
+          name: c4
+        c5: &ref_5
+          rows:
+            r1:
+              skip: true
+            r2:
+              width: 2*(u-0.5)
+              shift:
+                - 0.5u
+            r3:
+              shift:
+                - '-0.5u'
+          key: {}
+          name: c5
+        c6: &ref_6
+          rows:
+            r1:
+              skip: true
+            r2:
+              skip: true
+          key: {}
+          name: c6
+        c7: &ref_7
+          key:
+            skip: true
+          rows:
+            r2:
+              skip: false
+            r5:
+              skip: false
+              shift:
+                - 0
+                - '-1.5u'
+              width: 2*(u-0.5)
+              rotate: 90
+            r6:
+              skip: false
+              width: 2*(u-0.5)
+              shift:
+                - 2u
+                - '-1u'
+            r7:
+              skip: false
+              width: 1*(u-1)
+              rotate: -90
+              shift:
+                - 1.5u
+                - '-1u'
+          name: c7
+        c8: &ref_8
+          rows:
+            r1:
+              skip: true
+            r2:
+              skip: true
+          key: {}
+          name: c8
+        c9: &ref_9
+          rows:
+            r1:
+              skip: true
+            r2:
+              width: 2*(u-0.5)
+              shift:
+                - '-0.5u'
+            r3:
+              shift:
+                - 0.5u
+          key: {}
+          name: c9
+        c10: null
+        c11: null
+        c12: null
+        c13: null
+        c14: &ref_14
+          rows:
+            r1:
+              width: 2*(u-0.5)
+              shift:
+                - 0
+                - 0.5u
+              rotate: 90
+            r2:
+              skip: true
+              shift:
+                - +0.5u
+                - '-1u'
+              rotate: -90
+            r3:
+              width: 2*(u-0.5)
+              shift:
+                - 0
+                - 0.5u
+              rotate: 90
+            r4:
+              skip: true
+              shift:
+                - 0.5u
+                - '-1u'
+              rotate: -90
+          key: {}
+          name: c14
+        c15: null
+      rows:
+        r1: {}
+        r2: {}
+        r3: {}
+        r4: {}
+        r5: {}
+        r6: {}
+        r7: {}
+      name: matrix
+    col: *ref_0
+    row: r1
+    bind:
+      - 10
+      - 10
+      - 0
+      - 0
+matrix_c1_r2:
+  x: 0
+  'y': 19
+  r: 0
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: c1_r2
+    name: matrix_c1_r2
+    zone: *ref_1
+    col: *ref_0
+    row: r2
+    bind:
+      - 10
+      - 10
+      - 10
+      - 0
+matrix_c1_r3:
+  x: 0
+  'y': 47.5
+  r: 90
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 9.5
+    rotate: 90
+    width: 37
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: c1_r3
+    name: matrix_c1_r3
+    zone: *ref_1
+    col: *ref_0
+    row: r3
+    bind:
+      - 10
+      - 10
+      - 10
+      - 0
+matrix_c1_r5:
+  x: 0
+  'y': 76
+  r: 0
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: c1_r5
+    name: matrix_c1_r5
+    zone: *ref_1
+    col: *ref_0
+    row: r5
+    bind:
+      - 10
+      - 10
+      - 10
+      - 0
+matrix_c1_r6:
+  x: 0
+  'y': 95
+  r: 0
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: c1_r6
+    name: matrix_c1_r6
+    zone: *ref_1
+    col: *ref_0
+    row: r6
+    bind:
+      - 10
+      - 10
+      - 10
+      - 0
+matrix_c1_r7:
+  x: 0
+  'y': 114
+  r: 0
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: c1_r7
+    name: matrix_c1_r7
+    zone: *ref_1
+    col: *ref_0
+    row: r7
+    bind:
+      - 0
+      - 10
+      - 10
+      - 0
+matrix_c2_r1:
+  x: 23.75
+  'y': 0
+  r: 0
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 4.75
+      - 0
+    rotate: 0
+    width: 27.75
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: c2_r1
+    name: matrix_c2_r1
+    zone: *ref_1
+    col: *ref_2
+    row: r1
+    bind:
+      - 10
+      - 10
+      - 0
+      - 10
+matrix_c2_r2:
+  x: 19
+  'y': 19
+  r: 0
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - -4.75
+      - 0
+    rotate: 0
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: c2_r2
+    name: matrix_c2_r2
+    zone: *ref_1
+    col: *ref_2
+    row: r2
+    bind:
+      - 10
+      - 10
+      - 10
+      - 10
+matrix_c2_r3:
+  x: 19
+  'y': 38
+  r: 0
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: c2_r3
+    name: matrix_c2_r3
+    zone: *ref_1
+    col: *ref_2
+    row: r3
+    bind:
+      - 10
+      - 10
+      - 10
+      - 10
+matrix_c2_r4:
+  x: 19
+  'y': 57
+  r: 0
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: c2_r4
+    name: matrix_c2_r4
+    zone: *ref_1
+    col: *ref_2
+    row: r4
+    bind:
+      - 10
+      - 10
+      - 10
+      - 10
+matrix_c2_r5:
+  x: 19
+  'y': 76
+  r: 0
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: c2_r5
+    name: matrix_c2_r5
+    zone: *ref_1
+    col: *ref_2
+    row: r5
+    bind:
+      - 10
+      - 10
+      - 10
+      - 10
+matrix_c2_r6:
+  x: 19
+  'y': 95
+  r: 0
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: c2_r6
+    name: matrix_c2_r6
+    zone: *ref_1
+    col: *ref_2
+    row: r6
+    bind:
+      - 10
+      - 10
+      - 10
+      - 10
+matrix_c2_r7:
+  x: 19
+  'y': 114
+  r: 0
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: c2_r7
+    name: matrix_c2_r7
+    zone: *ref_1
+    col: *ref_2
+    row: r7
+    bind:
+      - 0
+      - 10
+      - 10
+      - 10
+matrix_c3_r1:
+  x: 52.25
+  'y': 0
+  r: 0
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 14.25
+      - 0
+    rotate: 0
+    width: 27.75
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: c3_r1
+    name: matrix_c3_r1
+    zone: *ref_1
+    col: *ref_3
+    row: r1
+    bind:
+      - 10
+      - 10
+      - 0
+      - 10
+matrix_c3_r2:
+  x: 38
+  'y': 19
+  r: 0
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - -14.25
+      - 0
+    rotate: 0
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: c3_r2
+    name: matrix_c3_r2
+    zone: *ref_1
+    col: *ref_3
+    row: r2
+    bind:
+      - 10
+      - 10
+      - 10
+      - 10
+matrix_c3_r3:
+  x: 38
+  'y': 38
+  r: 0
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: c3_r3
+    name: matrix_c3_r3
+    zone: *ref_1
+    col: *ref_3
+    row: r3
+    bind:
+      - 10
+      - 10
+      - 10
+      - 10
+matrix_c3_r4:
+  x: 38
+  'y': 57
+  r: 0
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: c3_r4
+    name: matrix_c3_r4
+    zone: *ref_1
+    col: *ref_3
+    row: r4
+    bind:
+      - 10
+      - 10
+      - 10
+      - 10
+matrix_c3_r5:
+  x: 38
+  'y': 76
+  r: 0
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: c3_r5
+    name: matrix_c3_r5
+    zone: *ref_1
+    col: *ref_3
+    row: r5
+    bind:
+      - 10
+      - 10
+      - 10
+      - 10
+matrix_c3_r6:
+  x: 38
+  'y': 95
+  r: 0
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: c3_r6
+    name: matrix_c3_r6
+    zone: *ref_1
+    col: *ref_3
+    row: r6
+    bind:
+      - 10
+      - 10
+      - 10
+      - 10
+matrix_c3_r7:
+  x: 38
+  'y': 114
+  r: 0
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: c3_r7
+    name: matrix_c3_r7
+    zone: *ref_1
+    col: *ref_3
+    row: r7
+    bind:
+      - 0
+      - 10
+      - 10
+      - 10
+matrix_c4_r2:
+  x: 57
+  'y': 19
+  r: 0
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: c4_r2
+    name: matrix_c4_r2
+    zone: *ref_1
+    col: *ref_4
+    row: r2
+    bind:
+      - 10
+      - 10
+      - 10
+      - 10
+matrix_c4_r3:
+  x: 57
+  'y': 38
+  r: 0
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: c4_r3
+    name: matrix_c4_r3
+    zone: *ref_1
+    col: *ref_4
+    row: r3
+    bind:
+      - 10
+      - 10
+      - 10
+      - 10
+matrix_c4_r4:
+  x: 57
+  'y': 57
+  r: 0
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: c4_r4
+    name: matrix_c4_r4
+    zone: *ref_1
+    col: *ref_4
+    row: r4
+    bind:
+      - 10
+      - 10
+      - 10
+      - 10
+matrix_c4_r5:
+  x: 57
+  'y': 76
+  r: 0
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: c4_r5
+    name: matrix_c4_r5
+    zone: *ref_1
+    col: *ref_4
+    row: r5
+    bind:
+      - 10
+      - 10
+      - 10
+      - 10
+matrix_c4_r6:
+  x: 57
+  'y': 95
+  r: 0
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: c4_r6
+    name: matrix_c4_r6
+    zone: *ref_1
+    col: *ref_4
+    row: r6
+    bind:
+      - 10
+      - 10
+      - 10
+      - 10
+matrix_c4_r7:
+  x: 57
+  'y': 114
+  r: 0
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: c4_r7
+    name: matrix_c4_r7
+    zone: *ref_1
+    col: *ref_4
+    row: r7
+    bind:
+      - 0
+      - 10
+      - 10
+      - 10
+matrix_c5_r2:
+  x: 85.5
+  'y': 19
+  r: 0
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 9.5
+      - 0
+    rotate: 0
+    width: 37
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: c5_r2
+    name: matrix_c5_r2
+    zone: *ref_1
+    col: *ref_5
+    row: r2
+    bind:
+      - 10
+      - 10
+      - 10
+      - 10
+matrix_c5_r3:
+  x: 76
+  'y': 38
+  r: 0
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - -9.5
+      - 0
+    rotate: 0
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: c5_r3
+    name: matrix_c5_r3
+    zone: *ref_1
+    col: *ref_5
+    row: r3
+    bind:
+      - 10
+      - 10
+      - 10
+      - 10
+matrix_c5_r4:
+  x: 76
+  'y': 57
+  r: 0
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: c5_r4
+    name: matrix_c5_r4
+    zone: *ref_1
+    col: *ref_5
+    row: r4
+    bind:
+      - 10
+      - 10
+      - 10
+      - 10
+matrix_c5_r5:
+  x: 76
+  'y': 76
+  r: 0
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: c5_r5
+    name: matrix_c5_r5
+    zone: *ref_1
+    col: *ref_5
+    row: r5
+    bind:
+      - 10
+      - 10
+      - 10
+      - 10
+matrix_c5_r6:
+  x: 76
+  'y': 95
+  r: 0
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: c5_r6
+    name: matrix_c5_r6
+    zone: *ref_1
+    col: *ref_5
+    row: r6
+    bind:
+      - 10
+      - 10
+      - 10
+      - 10
+matrix_c5_r7:
+  x: 76
+  'y': 114
+  r: 0
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: c5_r7
+    name: matrix_c5_r7
+    zone: *ref_1
+    col: *ref_5
+    row: r7
+    bind:
+      - 0
+      - 10
+      - 10
+      - 10
+matrix_c6_r3:
+  x: 95
+  'y': 38
+  r: 0
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: c6_r3
+    name: matrix_c6_r3
+    zone: *ref_1
+    col: *ref_6
+    row: r3
+    bind:
+      - 10
+      - 10
+      - 10
+      - 10
+matrix_c6_r4:
+  x: 95
+  'y': 57
+  r: 0
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: c6_r4
+    name: matrix_c6_r4
+    zone: *ref_1
+    col: *ref_6
+    row: r4
+    bind:
+      - 10
+      - 10
+      - 10
+      - 10
+matrix_c6_r5:
+  x: 95
+  'y': 76
+  r: 0
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: c6_r5
+    name: matrix_c6_r5
+    zone: *ref_1
+    col: *ref_6
+    row: r5
+    bind:
+      - 10
+      - 10
+      - 10
+      - 10
+matrix_c6_r6:
+  x: 95
+  'y': 95
+  r: 0
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: c6_r6
+    name: matrix_c6_r6
+    zone: *ref_1
+    col: *ref_6
+    row: r6
+    bind:
+      - 10
+      - 10
+      - 10
+      - 10
+matrix_c6_r7:
+  x: 95
+  'y': 114
+  r: 0
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: c6_r7
+    name: matrix_c6_r7
+    zone: *ref_1
+    col: *ref_6
+    row: r7
+    bind:
+      - 0
+      - 10
+      - 10
+      - 10
+matrix_c7_r2:
+  x: 114
+  'y': 19
+  r: 0
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: c7_r2
+    name: matrix_c7_r2
+    zone: *ref_1
+    col: *ref_7
+    row: r2
+    bind:
+      - 10
+      - 10
+      - 10
+      - 10
+matrix_c7_r5:
+  x: 114
+  'y': 47.5
+  r: 90
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - -28.5
+    rotate: 90
+    width: 37
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: c7_r5
+    name: matrix_c7_r5
+    zone: *ref_1
+    col: *ref_7
+    row: r5
+    bind:
+      - 10
+      - 10
+      - 10
+      - 10
+matrix_c7_r6:
+  x: 114
+  'y': 85.5
+  r: 90
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 38
+      - -19
+    rotate: 0
+    width: 37
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: c7_r6
+    name: matrix_c7_r6
+    zone: *ref_1
+    col: *ref_7
+    row: r6
+    bind:
+      - 10
+      - 10
+      - 10
+      - 10
+matrix_c7_r7:
+  x: 114
+  'y': 114
+  r: 0
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 28.5
+      - -19
+    rotate: -90
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: c7_r7
+    name: matrix_c7_r7
+    zone: *ref_1
+    col: *ref_7
+    row: r7
+    bind:
+      - 0
+      - 10
+      - 10
+      - 10
+matrix_c8_r3:
+  x: 133
+  'y': 38
+  r: 0
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: c8_r3
+    name: matrix_c8_r3
+    zone: *ref_1
+    col: *ref_8
+    row: r3
+    bind:
+      - 10
+      - 10
+      - 10
+      - 10
+matrix_c8_r4:
+  x: 133
+  'y': 57
+  r: 0
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: c8_r4
+    name: matrix_c8_r4
+    zone: *ref_1
+    col: *ref_8
+    row: r4
+    bind:
+      - 10
+      - 10
+      - 10
+      - 10
+matrix_c8_r5:
+  x: 133
+  'y': 76
+  r: 0
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: c8_r5
+    name: matrix_c8_r5
+    zone: *ref_1
+    col: *ref_8
+    row: r5
+    bind:
+      - 10
+      - 10
+      - 10
+      - 10
+matrix_c8_r6:
+  x: 133
+  'y': 95
+  r: 0
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: c8_r6
+    name: matrix_c8_r6
+    zone: *ref_1
+    col: *ref_8
+    row: r6
+    bind:
+      - 10
+      - 10
+      - 10
+      - 10
+matrix_c8_r7:
+  x: 133
+  'y': 114
+  r: 0
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: c8_r7
+    name: matrix_c8_r7
+    zone: *ref_1
+    col: *ref_8
+    row: r7
+    bind:
+      - 0
+      - 10
+      - 10
+      - 10
+matrix_c9_r2:
+  x: 142.5
+  'y': 19
+  r: 0
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - -9.5
+      - 0
+    rotate: 0
+    width: 37
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: c9_r2
+    name: matrix_c9_r2
+    zone: *ref_1
+    col: *ref_9
+    row: r2
+    bind:
+      - 10
+      - 10
+      - 10
+      - 10
+matrix_c9_r3:
+  x: 152
+  'y': 38
+  r: 0
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 9.5
+      - 0
+    rotate: 0
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: c9_r3
+    name: matrix_c9_r3
+    zone: *ref_1
+    col: *ref_9
+    row: r3
+    bind:
+      - 10
+      - 10
+      - 10
+      - 10
+matrix_c9_r4:
+  x: 152
+  'y': 57
+  r: 0
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: c9_r4
+    name: matrix_c9_r4
+    zone: *ref_1
+    col: *ref_9
+    row: r4
+    bind:
+      - 10
+      - 10
+      - 10
+      - 10
+matrix_c9_r5:
+  x: 152
+  'y': 76
+  r: 0
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: c9_r5
+    name: matrix_c9_r5
+    zone: *ref_1
+    col: *ref_9
+    row: r5
+    bind:
+      - 10
+      - 10
+      - 10
+      - 10
+matrix_c9_r6:
+  x: 152
+  'y': 95
+  r: 0
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: c9_r6
+    name: matrix_c9_r6
+    zone: *ref_1
+    col: *ref_9
+    row: r6
+    bind:
+      - 10
+      - 10
+      - 10
+      - 10
+matrix_c9_r7:
+  x: 152
+  'y': 114
+  r: 0
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: c9_r7
+    name: matrix_c9_r7
+    zone: *ref_1
+    col: *ref_9
+    row: r7
+    bind:
+      - 0
+      - 10
+      - 10
+      - 10
+matrix_c10_r1:
+  x: 171
+  'y': 0
+  r: 0
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: c10_r1
+    name: matrix_c10_r1
+    zone: *ref_1
+    col: &ref_10
+      rows: {}
+      key: {}
+      name: c10
+    row: r1
+    bind:
+      - 10
+      - 10
+      - 0
+      - 10
+matrix_c10_r2:
+  x: 171
+  'y': 19
+  r: 0
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: c10_r2
+    name: matrix_c10_r2
+    zone: *ref_1
+    col: *ref_10
+    row: r2
+    bind:
+      - 10
+      - 10
+      - 10
+      - 10
+matrix_c10_r3:
+  x: 171
+  'y': 38
+  r: 0
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: c10_r3
+    name: matrix_c10_r3
+    zone: *ref_1
+    col: *ref_10
+    row: r3
+    bind:
+      - 10
+      - 10
+      - 10
+      - 10
+matrix_c10_r4:
+  x: 171
+  'y': 57
+  r: 0
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: c10_r4
+    name: matrix_c10_r4
+    zone: *ref_1
+    col: *ref_10
+    row: r4
+    bind:
+      - 10
+      - 10
+      - 10
+      - 10
+matrix_c10_r5:
+  x: 171
+  'y': 76
+  r: 0
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: c10_r5
+    name: matrix_c10_r5
+    zone: *ref_1
+    col: *ref_10
+    row: r5
+    bind:
+      - 10
+      - 10
+      - 10
+      - 10
+matrix_c10_r6:
+  x: 171
+  'y': 95
+  r: 0
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: c10_r6
+    name: matrix_c10_r6
+    zone: *ref_1
+    col: *ref_10
+    row: r6
+    bind:
+      - 10
+      - 10
+      - 10
+      - 10
+matrix_c10_r7:
+  x: 171
+  'y': 114
+  r: 0
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: c10_r7
+    name: matrix_c10_r7
+    zone: *ref_1
+    col: *ref_10
+    row: r7
+    bind:
+      - 0
+      - 10
+      - 10
+      - 10
+matrix_c11_r1:
+  x: 190
+  'y': 0
+  r: 0
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: c11_r1
+    name: matrix_c11_r1
+    zone: *ref_1
+    col: &ref_11
+      rows: {}
+      key: {}
+      name: c11
+    row: r1
+    bind:
+      - 10
+      - 10
+      - 0
+      - 10
+matrix_c11_r2:
+  x: 190
+  'y': 19
+  r: 0
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: c11_r2
+    name: matrix_c11_r2
+    zone: *ref_1
+    col: *ref_11
+    row: r2
+    bind:
+      - 10
+      - 10
+      - 10
+      - 10
+matrix_c11_r3:
+  x: 190
+  'y': 38
+  r: 0
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: c11_r3
+    name: matrix_c11_r3
+    zone: *ref_1
+    col: *ref_11
+    row: r3
+    bind:
+      - 10
+      - 10
+      - 10
+      - 10
+matrix_c11_r4:
+  x: 190
+  'y': 57
+  r: 0
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: c11_r4
+    name: matrix_c11_r4
+    zone: *ref_1
+    col: *ref_11
+    row: r4
+    bind:
+      - 10
+      - 10
+      - 10
+      - 10
+matrix_c11_r5:
+  x: 190
+  'y': 76
+  r: 0
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: c11_r5
+    name: matrix_c11_r5
+    zone: *ref_1
+    col: *ref_11
+    row: r5
+    bind:
+      - 10
+      - 10
+      - 10
+      - 10
+matrix_c11_r6:
+  x: 190
+  'y': 95
+  r: 0
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: c11_r6
+    name: matrix_c11_r6
+    zone: *ref_1
+    col: *ref_11
+    row: r6
+    bind:
+      - 10
+      - 10
+      - 10
+      - 10
+matrix_c11_r7:
+  x: 190
+  'y': 114
+  r: 0
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: c11_r7
+    name: matrix_c11_r7
+    zone: *ref_1
+    col: *ref_11
+    row: r7
+    bind:
+      - 0
+      - 10
+      - 10
+      - 10
+matrix_c12_r1:
+  x: 209
+  'y': 0
+  r: 0
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: c12_r1
+    name: matrix_c12_r1
+    zone: *ref_1
+    col: &ref_12
+      rows: {}
+      key: {}
+      name: c12
+    row: r1
+    bind:
+      - 10
+      - 10
+      - 0
+      - 10
+matrix_c12_r2:
+  x: 209
+  'y': 19
+  r: 0
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: c12_r2
+    name: matrix_c12_r2
+    zone: *ref_1
+    col: *ref_12
+    row: r2
+    bind:
+      - 10
+      - 10
+      - 10
+      - 10
+matrix_c12_r3:
+  x: 209
+  'y': 38
+  r: 0
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: c12_r3
+    name: matrix_c12_r3
+    zone: *ref_1
+    col: *ref_12
+    row: r3
+    bind:
+      - 10
+      - 10
+      - 10
+      - 10
+matrix_c12_r4:
+  x: 209
+  'y': 57
+  r: 0
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: c12_r4
+    name: matrix_c12_r4
+    zone: *ref_1
+    col: *ref_12
+    row: r4
+    bind:
+      - 10
+      - 10
+      - 10
+      - 10
+matrix_c12_r5:
+  x: 209
+  'y': 76
+  r: 0
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: c12_r5
+    name: matrix_c12_r5
+    zone: *ref_1
+    col: *ref_12
+    row: r5
+    bind:
+      - 10
+      - 10
+      - 10
+      - 10
+matrix_c12_r6:
+  x: 209
+  'y': 95
+  r: 0
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: c12_r6
+    name: matrix_c12_r6
+    zone: *ref_1
+    col: *ref_12
+    row: r6
+    bind:
+      - 10
+      - 10
+      - 10
+      - 10
+matrix_c12_r7:
+  x: 209
+  'y': 114
+  r: 0
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: c12_r7
+    name: matrix_c12_r7
+    zone: *ref_1
+    col: *ref_12
+    row: r7
+    bind:
+      - 0
+      - 10
+      - 10
+      - 10
+matrix_c13_r1:
+  x: 228
+  'y': 0
+  r: 0
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: c13_r1
+    name: matrix_c13_r1
+    zone: *ref_1
+    col: &ref_13
+      rows: {}
+      key: {}
+      name: c13
+    row: r1
+    bind:
+      - 10
+      - 0
+      - 0
+      - 10
+matrix_c13_r2:
+  x: 228
+  'y': 19
+  r: 0
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: c13_r2
+    name: matrix_c13_r2
+    zone: *ref_1
+    col: *ref_13
+    row: r2
+    bind:
+      - 10
+      - 10
+      - 10
+      - 10
+matrix_c13_r3:
+  x: 228
+  'y': 38
+  r: 0
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: c13_r3
+    name: matrix_c13_r3
+    zone: *ref_1
+    col: *ref_13
+    row: r3
+    bind:
+      - 10
+      - 10
+      - 10
+      - 10
+matrix_c13_r4:
+  x: 228
+  'y': 57
+  r: 0
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: c13_r4
+    name: matrix_c13_r4
+    zone: *ref_1
+    col: *ref_13
+    row: r4
+    bind:
+      - 10
+      - 10
+      - 10
+      - 10
+matrix_c13_r5:
+  x: 228
+  'y': 76
+  r: 0
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: c13_r5
+    name: matrix_c13_r5
+    zone: *ref_1
+    col: *ref_13
+    row: r5
+    bind:
+      - 10
+      - 10
+      - 10
+      - 10
+matrix_c13_r6:
+  x: 228
+  'y': 95
+  r: 0
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: c13_r6
+    name: matrix_c13_r6
+    zone: *ref_1
+    col: *ref_13
+    row: r6
+    bind:
+      - 10
+      - 10
+      - 10
+      - 10
+matrix_c13_r7:
+  x: 228
+  'y': 114
+  r: 0
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: c13_r7
+    name: matrix_c13_r7
+    zone: *ref_1
+    col: *ref_13
+    row: r7
+    bind:
+      - 0
+      - 10
+      - 10
+      - 10
+matrix_c14_r1:
+  x: 247
+  'y': 9.5
+  r: 90
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 9.5
+    rotate: 90
+    width: 37
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: c14_r1
+    name: matrix_c14_r1
+    zone: *ref_1
+    col: *ref_14
+    row: r1
+    bind:
+      - 10
+      - 10
+      - 0
+      - 10
+matrix_c14_r3:
+  x: 247
+  'y': 47.5
+  r: 90
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 9.5
+    rotate: 90
+    width: 37
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: c14_r3
+    name: matrix_c14_r3
+    zone: *ref_1
+    col: *ref_14
+    row: r3
+    bind:
+      - 10
+      - 10
+      - 10
+      - 10
+matrix_c14_r5:
+  x: 247
+  'y': 76
+  r: 0
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: c14_r5
+    name: matrix_c14_r5
+    zone: *ref_1
+    col: *ref_14
+    row: r5
+    bind:
+      - 10
+      - 10
+      - 10
+      - 10
+matrix_c14_r6:
+  x: 247
+  'y': 95
+  r: 0
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: c14_r6
+    name: matrix_c14_r6
+    zone: *ref_1
+    col: *ref_14
+    row: r6
+    bind:
+      - 10
+      - 10
+      - 10
+      - 10
+matrix_c14_r7:
+  x: 247
+  'y': 114
+  r: 0
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: c14_r7
+    name: matrix_c14_r7
+    zone: *ref_1
+    col: *ref_14
+    row: r7
+    bind:
+      - 0
+      - 10
+      - 10
+      - 10
+matrix_c15_r1:
+  x: 266
+  'y': 0
+  r: 0
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: c15_r1
+    name: matrix_c15_r1
+    zone: *ref_1
+    col: &ref_15
+      rows: {}
+      key: {}
+      name: c15
+    row: r1
+    bind:
+      - 10
+      - 0
+      - 0
+      - 0
+matrix_c15_r2:
+  x: 266
+  'y': 19
+  r: 0
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: c15_r2
+    name: matrix_c15_r2
+    zone: *ref_1
+    col: *ref_15
+    row: r2
+    bind:
+      - 10
+      - 0
+      - 10
+      - 10
+matrix_c15_r3:
+  x: 266
+  'y': 38
+  r: 0
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: c15_r3
+    name: matrix_c15_r3
+    zone: *ref_1
+    col: *ref_15
+    row: r3
+    bind:
+      - 10
+      - 0
+      - 10
+      - 10
+matrix_c15_r4:
+  x: 266
+  'y': 57
+  r: 0
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: c15_r4
+    name: matrix_c15_r4
+    zone: *ref_1
+    col: *ref_15
+    row: r4
+    bind:
+      - 10
+      - 0
+      - 10
+      - 10
+matrix_c15_r5:
+  x: 266
+  'y': 76
+  r: 0
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: c15_r5
+    name: matrix_c15_r5
+    zone: *ref_1
+    col: *ref_15
+    row: r5
+    bind:
+      - 10
+      - 0
+      - 10
+      - 10
+matrix_c15_r6:
+  x: 266
+  'y': 95
+  r: 0
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: c15_r6
+    name: matrix_c15_r6
+    zone: *ref_1
+    col: *ref_15
+    row: r6
+    bind:
+      - 10
+      - 0
+      - 10
+      - 10
+matrix_c15_r7:
+  x: 266
+  'y': 114
+  r: 0
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: c15_r7
+    name: matrix_c15_r7
+    zone: *ref_1
+    col: *ref_15
+    row: r7
+    bind:
+      - 0
+      - 0
+      - 10
+      - 10
